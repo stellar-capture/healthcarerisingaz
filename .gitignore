@@ -5,6 +5,7 @@
 *.bak
 *.swp
 Thumbs.db
+.htaccess
 
 # wordpress specific
 wp-config.php
@@ -30,6 +31,8 @@ wp-content/mu-plugins/wpengine-common*
 wp-content/mysql.sql
 wp-content/mu-plugins/wpengine-security-auditor.php
 wp-content/mu-plugins/wpe-wp-sign-on-plugin*
+.wpe-devkit/*
+.wpengine-conf/*
 
 # wp core (as of 4.9.5)
 /db-config.php
